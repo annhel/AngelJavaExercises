@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class GradeCalculator {
     public static void main(String[] args) {
+        System.out.println("Enter your Grade: ");
         Scanner gradeInput = new Scanner(System.in);
         int grade = gradeInput.nextInt();
 
@@ -11,7 +12,7 @@ public class GradeCalculator {
             System.out.println("A");
         } else if(grade <= 92 && grade >= 90){
             System.out.println("A-");
-        } else if(grade <= 87 && grade >= 89){
+        } else if(grade <= 89 && grade >= 87){
             System.out.println("B+");
         } else if(grade <= 86 && grade >= 81){
             System.out.println("B");
